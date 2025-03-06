@@ -1,1 +1,204 @@
 /* Portfolio Project Website Style Sheet */
+
+/* Global */
+
+html 
+{
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  opacity: 100%;
+  background-color: #121212;
+  transition: all 1s ease-in-out;
+}
+
+.container 
+{
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 2fr 1fr;
+}
+
+body
+{}
+
+h1
+{
+  font-size: 2rem;
+}
+
+h2
+{
+  font-size: 1.5rem;
+}
+
+h3
+{
+  font-size: 1.25rem;
+}
+
+p
+{
+
+}
+
+a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fff;
+  transition: all 0.4s ease-in-out;
+}
+
+a:hover
+{
+  color:#829e7a;
+
+}
+
+
+
+/* Header */
+
+header 
+{
+  
+  font-family: ;
+  font-size: ;
+  color:;
+  background-color:#ffffff0c;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logo
+{
+  position: absolute;
+}
+
+header h1 
+{
+  font-family:;
+  font-size:;
+  color: #829e7a;
+  padding:;
+  display:;
+  text-align:;
+  position: relative;
+  top: -10px;
+}
+
+header h3
+{
+  font-family:;
+  font-size:;
+  color:;
+  padding:;
+  margin-top: -25px;
+  display:;
+  text-align:;
+  position: relative;
+  top:;
+
+}
+
+nav ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li 
+{
+  padding: 0px 10px;
+  display: inline-block;
+  text-align: initial;
+  list-style-type: none; 
+}
+
+
+
+
+/* Main */
+
+main 
+{}
+
+h2
+{}
+
+h3 
+{}
+
+h4 
+{}
+
+.breadcrumb 
+{}
+
+.breadcrumb li 
+{}
+
+#a
+{
+  background-color: #ffffff0c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#a img
+{
+ background-color:#ffffff3F;
+ border-radius: 10px;
+}
+
+#b
+{
+  background-color: #ffffff0c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#b img
+{
+ background-color:#ffffff3F;
+ border-radius: 10px;
+}
+
+#c
+{
+  background-color: #ffffff0c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#c img
+{
+ background-color:#ffffff3F;
+ border-radius: 10px;
+}
+
+/* Footer */
+
+footer
+{
+  background-color: #ffffff0c;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+section #id 
+{}
+
+section #id
+{}
+
+
