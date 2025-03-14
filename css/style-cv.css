@@ -65,22 +65,6 @@ html
   box-shadow: 2px 2px 10px 0px #121212;
 }
 
-.section-container
-{
-  display: grid;
-  gap: 15px;
-  justify-items: center;
-
-
-  background-color: #414141;
-  padding: 0px;
-  margin: 15px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 0px #121212;
-
-  grid-template-areas: 
-  'media text aside';
-}
 
 .footer-container
 {
@@ -172,79 +156,92 @@ nav li
 
 /* Main */
 
-.card-container .heading
+.resume-header h2
 {
   font-size: 2.5rem;
   text-align: center;
 }
 
-.card-text-container
+.resume-header ul
 {
-  grid-area: text;
-  align-content: center;
-  margin-right: auto;
   text-align: center;
-  
+  list-style: none;
 }
 
-.link-container
+.resume-header ul li
 {
-  grid-area: aside;
+  display: inline;
+  padding: 15px;
+  text-align: start;
+}
+
+.section-container
+{
   display: grid;
   gap: 0px;
-  place-content: center center;
-  margin-right: 15px;
+
+  background-color: #414141;
+  padding: 0px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 0px #121212;
+}
+
+.section-header
+{
   text-align: center;
 }
 
-#laced-image
+.section-item
 {
-  grid-area: media;
-  place-self: start;
-
-  max-width: 200px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  display: grid;
+  padding: 20px;
+  margin: 15px;
+  line-height: 1rem;
+  grid-template-areas: 
+  'l r';
+  border-radius: 10px;
+  background-color: #5d5d5d;
+  box-shadow: 1px 1px 20px 0px #121212;
 }
 
-.ckom-container
+.left-section
 {
-  grid-area: text;
-  align-content: center;
-  margin-right: auto;
+  grid-area: l;
+  text-align: left;
 }
 
-#ckom-image
+.left-section h5
 {
-  grid-area: media;
-  place-self: start;
-
-  max-width: 200px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  margin-top: -20px;
 }
 
-.savior-container
+.left-section #degree
 {
-  grid-area: text;
-  align-content: center;
-  margin-right: auto;
+  margin-top: -10px;
 }
 
-.card-image
+.left-section p
 {
-  grid-area: media;
-  place-self: start;
-
-  max-width: 200px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  line-height: 1rem;
+  padding-bottom: .3rem;
+  margin-top: -15px;
+  text-align: left;
+  font-size: smaller;
 }
 
-h2
+
+.right-section
 {
+  grid-area: r;
+  text-align: right;
+  margin-left: auto;
 }
 
+.right-section h5
+{
+  margin-top: -20px;
+}
 
 
 
