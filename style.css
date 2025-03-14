@@ -33,10 +33,14 @@ html
 .header-container 
 {
   grid-area: header;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+
   background-color:#ffffff0c;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
+  box-shadow: 2px 2px 10px 0px #121212;
 
 }
 
@@ -46,43 +50,36 @@ html
   background-color: #ffffff0c;
   border-radius: 10px;
   padding: 15px;
-  text-align: center;
+  text-align: left;
+  box-shadow: 2px 2px 10px 0px #121212;
 }
 
-.info-container
+
+.card-container
 {
+  display: grid;
   background-color: #2d2d2d;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-}
-
-.resume-container
-{
-  background-color: #2d2d2d;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-.project-container
-{
-  background-color: #2d2d2d;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
+  box-shadow: 2px 2px 10px 0px #121212;
 }
 
 .section-container
 {
   display: grid;
-  background-color: #363636;
-  padding: 10px;
+  gap: 15px;
+  justify-items: center;
+
+
+  background-color: #414141;
+  padding: 0px;
   margin: 15px;
   border-radius: 10px;
+  box-shadow: 1px 1px 20px 0px #121212;
 
   grid-template-areas: 
-  'media media aside aside aside';
+  'media text aside';
 }
 
 .footer-container
@@ -93,6 +90,7 @@ html
   margin: 10px 0px;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 2px 2px 10px 0px #121212;
 }
 
 a
@@ -105,13 +103,30 @@ a
 
 a:hover
 {
-  color:#829e7a;
+  color:#a34d47;
 }
 
 
 
 /* Header */
 
+.id-container
+{
+  display: flex;
+  justify-self: start;
+}
+
+.title-container
+{
+  text-align: left;
+  margin: 10px;
+}
+
+
+#logo
+{
+  grid-area: 1 / 1 / span 1 / span 1;
+}
 #logo img
 {
   border-radius: 50%;
@@ -119,9 +134,11 @@ a:hover
 
 h1 
 {
-  color: #829e7a;
-  padding: 10px 0px 0px 0px;
-  margin: 0;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+
+
+  color: #c17f67;
 }
 
 #subheader
@@ -133,6 +150,7 @@ h1
 
 nav
 {
+  margin-left: auto;
 
 }
 
@@ -156,34 +174,82 @@ nav li
 
 /* Main */
 
-.laced-container
+.card-container .heading
+{
+  text-align: center;
+}
+
+.card-text-container
+{
+  grid-area: text;
+  align-content: center;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+.link-container
 {
   grid-area: aside;
-  
+  display: grid;
+  gap: 15px;
+  place-content: center center;
+  margin-right: 15px;
+  text-align: center;
 }
 
 #laced-image
 {
   grid-area: media;
+  place-self: start;
+
   max-width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .ckom-container
 {
-  grid-area: aside;
-  
+  grid-area: text;
+  align-content: center;
+  margin-right: auto;
 }
 
 #ckom-image
 {
   grid-area: media;
+  place-self: start;
+
   max-width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.savior-container
+{
+  grid-area: text;
+  align-content: center;
+  margin-right: auto;
+}
+
+.card-image
+{
+  grid-area: media;
+  place-self: start;
+
+  max-width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 h2
 {
-  margin: 10px 0px 25px 0px;
 }
+
+
+
+
+
 /* Footer */
 
 footer

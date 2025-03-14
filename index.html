@@ -9,7 +9,6 @@
     <title>Matt Ramey Developer Portfolio</title>
     <link href="./style.css" rel="stylesheet"/>
     <link/>
-    <link/>
   </head>
 
 <!-- BODY BEGINS -->
@@ -18,18 +17,34 @@
       
       <header>
         <div class="header-container">
-          <div id="logo">
-            <a href="index.html">
-              <img src="./resources/Matt-Headshot-2021--redBackground.jpg" width="75" height="75"/>
-            </a>
+          <div class="id-container">
+            <div id="logo">
+              <a href="index.html">
+                <img src="./resources/Matt-Headshot-2021--redBackground.jpg" width="75" height="75"/>
+              </a>
+            </div>
+            <div class="title-container">
+              <h1>Matt Ramey</h1>
+              <h3 id="subheader">Creator // Developer</h3>
+            </div>
           </div>
-          <h1>Matt Ramey</h1>
-          <h3 id="subheader">Creator / Developer</h3>
           <nav>
             <ul>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">About</a></li>
+              <li>
+                <a href="#">
+                  <img src="./resources/Compass SVG Icon.svg" height="30"/>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./resources/File Earmark Icon.svg" height="30">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./resources/Chat Dot 2 Icon.svg" height="30">
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -38,52 +53,92 @@
       <main>
         <div class="main-container">
 
-          <div class="project-container">
+          <div class="card-container">
 
-            <h2>Media Projects</h2>
+            <h2 class="heading">Films</h2>
 
             <section class="section-container" id="laced">
-              <img id="laced-image" src="./resources/Laced Key Art.png"/>
-              <div class="laced-container">
-                <h3>Laced</h3>
+              <img class="card-image" src="./resources/Laced Key Art.png"/>
+              <div class="card-text-container">
                 <h5>Feature Film</h5>
-                <h4>Producer, Editor</h4>
-                <a href="#">Now Streaming on Tubi</a>
+                <h2>Laced (2023)</h2>
+                <h5>Producer, Editor</h5>
+              </div>
+              <div class="link-container">
+                <h3>Stream On:</h3>
+                <a href="#">
+                  <img src="./resources/Tubi Logo 2024.svg" height="25">
+                </a>
+                <a href="#">
+                  <img src="./resources/Apple TV.svg" height="50">
+                </a>
               </div>
             </section>
 
             <section class="section-container" id="ckom">
-              <img id="ckom-image" src="./resources/Laced Key Art.png"/>
-              <div class="ckom-container">
-                <h3>A Certain Kind of Man</h3>
+              <img class="card-image" src="./resources/Laced Key Art.png"/>
+              <div class="card-text-container">
                 <h5>Thesis Film</h5>
-                <h4>Writer, Producer</h4>
-                <a href="#">Watch Here</a>
+                <h2>A Certain Kind of Man</h2>
+                <h5>Writer, Producer</h5>
+              </div>
+              <div class="link-container">
+                <h3>Stream On:</h3>
+                <a href="#">
+                  <img src="./resources/YouTube Icon.svg" height="50">
+                </a>
               </div>
             </section>
 
-            <section class="section-container" id="project-c">
-              <h3>Section Heading</h3>
-              <img id="aimg1" src="../starting/resources/code-svgrepo-com.svg" height="100" width="100"/>
-              <p>Sample Content</p>
+            <section class="section-container" id="savior">
+              <img class="card-image" src="./resources/Laced Key Art.png"/>
+              <div class="card-text-container">
+                <h5>Short Film</h5>
+                <h2>Savior</h2>
+                <h5>Writer, Producer</h5>
+              </div>
+              <div class="link-container">
+                <h3>Stream On:</h3>
+                <a href="#">
+                  <img src="./resources/YouTube Icon.svg" height="50">
+                </a>
+              </div>
             </section>
           
           </div>
 
-          <div class="resume-container">
+          <div class="card-container">
 
-            <h2>Resume</h2>
+            <h2 class="heading">Digital</h2>
 
-            <section class="section-container" id="resume-a">
-              <h3>Section Heading</h3>
-              <img id="aimg1" src="../starting/resources/code-svgrepo-com.svg" height="100" width="100"/>
-              <p>Sample Content</p>
+            <section class="section-container" id="dirty-bar-mat">
+              <img class="card-image" src="./resources/dirtybarmat logo_portrait.png"/>
+              <div class="card-text-container">
+                <h5>Social - Food & Beverage</h5>
+                <h2>Dirty Bar Mat</h2>
+                <h5>Content Creator</h5>
+              </div>
+              <div class="link-container">
+                <h3>Stream On:</h3>
+                <a href="#">
+                  <img src="./resources/YouTube Icon.svg" height="50">
+                </a>
+              </div>
             </section>
 
-            <section class="section-container" id="resume-b">
-              <h3>Section Heading</h3>
-              <img id="aimg1" src="../starting/resources/code-svgrepo-com.svg" height="100" width="100"/>
-              <p>Sample Content</p>
+            <section class="section-container" id="tabletop-reel">
+              <img class="card-image" src="./resources/Laced Key Art.png"/>
+              <div class="card-text-container">
+                <h5>Commercial - Food & Beverage</h5>
+                <h2>Tabletop Client Reel</h2>
+                <h5>Director</h5>
+              </div>
+              <div class="link-container">
+                <h3>Stream On:</h3>
+                <a href="#">
+                  <img src="./resources/YouTube Icon.svg" height="50">
+                </a>
+              </div>
             </section>
 
             <section class="section-container" id="resume-c">
@@ -94,9 +149,9 @@
 
           </div>
 
-          <div class="info-container">
+          <div class="card-container">
 
-            <h2>About</h2>
+            <h2 class="heading">Software</h2>
 
             <section class="section-container" id="info-a">
               <h3>Section Heading</h3>
